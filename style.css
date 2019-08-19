@@ -1,0 +1,26 @@
+.rekhil {
+  margin: 100px;
+  height: 100px;
+  width: 400px;
+  border: 2px solid red;
+  border-radius: 60px;
+}
+
+@keyframes chalu {
+  0% {
+    transform: translateX(0px);
+  }
+  100% {
+    transform: translateX(300px);
+  }
+}
+button {
+  height: 100px;
+  width: 100px;
+  border-radius: 60px;
+  border: 0px;
+  background-image: radial-gradient(circle closest-side, red, white);
+  outline: none;
+
+  animation: chalu 3s ease-out 3s;
+}
